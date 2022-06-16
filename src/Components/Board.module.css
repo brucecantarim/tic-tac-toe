@@ -1,0 +1,14 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 1px;
+    width: 300px;
+    height: 300px;
+}
+
+.winner,
+.restartButton {
+    display: inline-block;
+    margin-left: 1rem;
+}

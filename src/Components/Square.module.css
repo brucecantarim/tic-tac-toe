@@ -1,0 +1,4 @@
+.square {
+    display: grid;
+    place-items: center;
+}
